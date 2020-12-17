@@ -52,13 +52,3 @@ npx vue-pwa-asset-generator -a {512x512_png_source | svg_source} -o {output_fold
 ```
 
 ---
-
-# CAPACITOR
-
-```Android
-npx cap add android
-```
-
-``Ìos
-npx cap add android
-```

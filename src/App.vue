@@ -1,16 +1,16 @@
 <template>
-
-  <div class="navbar-fixeds">
+  <!-- entete -->
+  <header class="navbar-fixeds">
     <nav class="nav-extended  black darken-1 ptm">
       <div class="nav-wrapper mlm">
         <a href="#" class="brand-logo">
-          <i class="material-icons large">blur_on</i>ADMIN
+          <i class="material-icons large">blur_on</i>ELOUAN
         </a>
         <a href="#" data-target="slide-out" class="sidenav-trigger">
           <i class="material-icons">menu</i>
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="/" target="_blank">EPYO VISIO</a></li>
+          <li><a href="/" target="_blank">@github</a></li>
         </ul>
       </div>
       <div class="nav-content">
@@ -26,13 +26,53 @@
     <ul class="sidenav" id="slide-out">
       <li><a href="/">EPYO</a></li>
     </ul>
-  </div>
 
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  </header>
+
+  <!-- principale -->
+  <main>
+
+    <div class="home">
+      <img alt="Vue logo" src="./assets/logo.png">
+      <HelloWorld msg="Welcome to Your Vue.js App"/>
+    </div>
+
+  </main>
+
+
+  <!-- informations -->
+  <aside>
+  </aside>
+
+
+  <!-- pied de page -->
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2020 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+ 
 </template>
 
 <style lang="scss">
@@ -60,3 +100,19 @@
   color: #42b983;
 }
 </style>
+
+
+<script>
+
+
+// @ is an alias to /src
+import HelloWorld from '@/components/HelloWorld.vue'
+
+
+export default {
+  name: 'Home',
+  components: {
+    HelloWorld
+  }
+}
+</script>

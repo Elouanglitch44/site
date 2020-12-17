@@ -4,13 +4,13 @@
     <nav class="nav-extended  black darken-1 ptm">
       <div class="nav-wrapper mlm">
         <a href="#" class="brand-logo">
-          <i class="material-icons large">blur_on</i>ELOUAN
+          <i class="material-icons large">blur_on</i>Le transferateur
         </a>
         <a href="#" data-target="slide-out" class="sidenav-trigger">
           <i class="material-icons">menu</i>
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="/" target="_blank">@github</a></li>
+          <li><a href="https://github.com/Elouanglitch44" target="_blank">Elouanglitch44</a></li>
         </ul>
       </div>
       <div class="nav-content">
@@ -33,12 +33,57 @@
   <main>
 
     <div class="home">
-      <img alt="Vue logo" src="./assets/logo.png">
+      <img alt="Vue logo" src="./assets/img/Nb_lamborghini.jpg">
       <HelloWorld msg="Welcome to Your Vue.js App"/>
     </div>
 
-  </main>
+    <div class="row">
 
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-image">
+            <img src="./assets/img/Nb_lamborghini.jpg">
+            <span class="card-title">Lamborghini bleue</span>
+          </div>
+          <div class="card-content white-text">
+            <p>C'est une très belle Lamborghini bleue devant une grosse villa à Monaco.
+              La Villa a une vue splendide sur la mer ou à coté on peut se balader en Lamborghini.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-image">
+            <img src="./assets/img/LamborghiniBla.jpg">
+            <span class="card-title">Lamborghini Blanche</span>
+          </div>
+          <div class="card-content white-text">
+            <p>C'est une très belle Lamborghini blanc devant une grosse Église au Vatican.
+              L'Église a une vue splendide sur la place ou à coté on peut se balader en Lamborghini.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+<div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-image">
+            <img src="./assets/img/MclarenNB.jpg">
+            <span class="card-title">Mclaren</span>
+          </div>
+          <div class="card-content white-text">
+            <p>C'est une très belle Mclaren orange dans un paysage rocheux aux USA .
+              Le paysage a une vue splendide sur l'étendue plaine Américaine ou à coté on peut se balader en Maclaren .
+            </p>
+          </div>
+        </div>
+      </div>
+  
+  </main>
 
   <!-- informations -->
   <aside>
@@ -50,24 +95,20 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          <h5 class="white-text">Le transferateur </h5>
+          <p class="grey-text text-lighten-4">Il te sert à aller sur mes informations qui sont importantes.</p>
         </div>
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
+          <h5 class="white-text">Lien</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/Elouanglitch44">Elouanglitch44</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-        © 2020 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        © 2020 Copyright Elouan
       </div>
     </div>
   </footer>
